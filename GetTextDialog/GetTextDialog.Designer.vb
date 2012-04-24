@@ -28,59 +28,39 @@ Partial Class GetTextDialog
         '
         'btnOK
         '
-        Me.btnOK.AccessibleDescription = Nothing
-        Me.btnOK.AccessibleName = Nothing
-        resources.ApplyResources(Me.btnOK, "btnOK")
-        Me.btnOK.BackgroundImage = Nothing
         Me.btnOK.DialogResult = System.Windows.Forms.DialogResult.OK
-        Me.btnOK.Font = Nothing
+        resources.ApplyResources(Me.btnOK, "btnOK")
         Me.btnOK.Name = "btnOK"
         Me.btnOK.UseVisualStyleBackColor = True
         '
         'btnCancel
         '
-        Me.btnCancel.AccessibleDescription = Nothing
-        Me.btnCancel.AccessibleName = Nothing
-        resources.ApplyResources(Me.btnCancel, "btnCancel")
-        Me.btnCancel.BackgroundImage = Nothing
         Me.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel
-        Me.btnCancel.Font = Nothing
+        resources.ApplyResources(Me.btnCancel, "btnCancel")
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.UseVisualStyleBackColor = True
         '
         'label
         '
-        Me.label.AccessibleDescription = Nothing
-        Me.label.AccessibleName = Nothing
         resources.ApplyResources(Me.label, "label")
-        Me.label.Font = Nothing
         Me.label.Name = "label"
         '
         'textBox
         '
-        Me.textBox.AccessibleDescription = Nothing
-        Me.textBox.AccessibleName = Nothing
         resources.ApplyResources(Me.textBox, "textBox")
-        Me.textBox.BackgroundImage = Nothing
-        Me.textBox.Font = Nothing
         Me.textBox.Name = "textBox"
         '
         'GetTextDialog
         '
         Me.AcceptButton = Me.btnOK
-        Me.AccessibleDescription = Nothing
-        Me.AccessibleName = Nothing
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImage = Nothing
         Me.CancelButton = Me.btnCancel
         Me.Controls.Add(Me.textBox)
         Me.Controls.Add(Me.label)
         Me.Controls.Add(Me.btnCancel)
         Me.Controls.Add(Me.btnOK)
-        Me.Font = Nothing
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog
-        Me.Icon = Nothing
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "GetTextDialog"
