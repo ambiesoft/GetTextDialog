@@ -20,10 +20,11 @@ Partial Class GetTextDialog
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(GetTextDialog))
-        Me.btnOK = New System.Windows.Forms.Button
-        Me.btnCancel = New System.Windows.Forms.Button
-        Me.label = New System.Windows.Forms.Label
-        Me.textBox = New System.Windows.Forms.TextBox
+        Me.btnOK = New System.Windows.Forms.Button()
+        Me.btnCancel = New System.Windows.Forms.Button()
+        Me.label = New System.Windows.Forms.Label()
+        Me.textBox = New System.Windows.Forms.TextBox()
+        Me.chkMain = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
         '
         'btnOK
@@ -50,12 +51,19 @@ Partial Class GetTextDialog
         resources.ApplyResources(Me.textBox, "textBox")
         Me.textBox.Name = "textBox"
         '
+        'chkMain
+        '
+        resources.ApplyResources(Me.chkMain, "chkMain")
+        Me.chkMain.Name = "chkMain"
+        Me.chkMain.UseVisualStyleBackColor = True
+        '
         'GetTextDialog
         '
         Me.AcceptButton = Me.btnOK
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.CancelButton = Me.btnCancel
+        Me.Controls.Add(Me.chkMain)
         Me.Controls.Add(Me.textBox)
         Me.Controls.Add(Me.label)
         Me.Controls.Add(Me.btnCancel)
@@ -74,4 +82,5 @@ Partial Class GetTextDialog
     Friend WithEvents btnCancel As System.Windows.Forms.Button
     Friend WithEvents label As System.Windows.Forms.Label
     Friend WithEvents textBox As System.Windows.Forms.TextBox
+    Friend WithEvents chkMain As System.Windows.Forms.CheckBox
 End Class

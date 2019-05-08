@@ -12,7 +12,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("Ambiesoft")> 
 <Assembly: AssemblyProduct("GetTextDialog")> 
-<Assembly: AssemblyCopyright("Copyright (C)  2007")> 
+<Assembly: AssemblyCopyright("Copyright (C)  2019")> 
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' 既定値にすることができます:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.0.1.0")> 
+<Assembly: AssemblyFileVersion("1.0.1.0")> 
