@@ -171,10 +171,10 @@
     <value>True</value>
   </data>
   <data name="label.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 10</value>
+    <value>9, 9</value>
   </data>
   <data name="label.Size" type="System.Drawing.Size, System.Drawing">
-    <value>39, 13</value>
+    <value>45, 15</value>
   </data>
   <data name="label.TabIndex" type="System.Int32, mscorlib">
     <value>100</value>
@@ -195,10 +195,10 @@
     <value>2</value>
   </data>
   <data name="textBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>14, 26</value>
+    <value>12, 28</value>
   </data>
   <data name="textBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>358, 20</value>
+    <value>358, 23</value>
   </data>
   <data name="textBox.TabIndex" type="System.Int32, mscorlib">
     <value>200</value>
@@ -219,10 +219,10 @@
     <value>True</value>
   </data>
   <data name="chkMain.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 52</value>
+    <value>12, 57</value>
   </data>
   <data name="chkMain.Size" type="System.Drawing.Size, System.Drawing">
-    <value>81, 17</value>
+    <value>90, 19</value>
   </data>
   <data name="chkMain.TabIndex" type="System.Int32, mscorlib">
     <value>300</value>
@@ -246,10 +246,13 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>96, 96</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>384, 121</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">

@@ -61,7 +61,7 @@ Partial Class GetTextDialog
         '
         Me.AcceptButton = Me.btnOK
         resources.ApplyResources(Me, "$this")
-        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.CancelButton = Me.btnCancel
         Me.Controls.Add(Me.chkMain)
         Me.Controls.Add(Me.textBox)
