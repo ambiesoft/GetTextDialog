@@ -12,13 +12,13 @@ Public Class GetTextDialog
         thisobj.chkMain.Visible = False
         thisobj.textBox.Text = s
         If parent Is Nothing Then
-            thisobj.StartPosition = Windows.Forms.FormStartPosition.CenterScreen
+            thisobj.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
             thisobj.ShowInTaskbar = True
         End If
 
         sdRet = thisobj.ShowDialog(parent)
 
-        If sdRet = Windows.Forms.DialogResult.OK Then
+        If sdRet = System.Windows.Forms.DialogResult.OK Then
             s = thisobj.textBox.Text
             DoModalDialog = True
         Else
@@ -46,13 +46,13 @@ Public Class GetTextDialog
         thisobj.chkMain.Checked = check
         thisobj.textBox.Text = s
         If parent Is Nothing Then
-            thisobj.StartPosition = Windows.Forms.FormStartPosition.CenterScreen
+            thisobj.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
             thisobj.ShowInTaskbar = True
         End If
 
         sdRet = thisobj.ShowDialog(parent)
 
-        If sdRet = Windows.Forms.DialogResult.OK Then
+        If sdRet = System.Windows.Forms.DialogResult.OK Then
             s = thisobj.textBox.Text
             check = thisobj.chkMain.Checked
             DoModalDialogCheck = True
